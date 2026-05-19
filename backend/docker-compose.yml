@@ -1,0 +1,12 @@
+# docker-compose.yml
+services:
+  mongodb:
+    image: mongo:7
+    container_name: vinylvault-mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

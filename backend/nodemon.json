@@ -1,0 +1,5 @@
+{
+  "watch": ["bin", "app.ts", "routes"],
+  "ext": "ts",
+  "exec": "ts-node bin/www.ts"
+}
