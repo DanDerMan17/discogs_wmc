@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     },
     title: {
         backgroundColor: '#6F3279',
-        fontSize: 32,
+        fontSize: 48,
         fontWeight: 'bold',
         textAlign: 'center',
         marginVertical: 5,
@@ -29,4 +29,25 @@ export const styles = StyleSheet.create({
         marginTop: 4,
         fontStyle: 'italic',
     },
-});
+    button: {
+        backgroundColor: '#6F3279',
+        width: '10%',
+        marginLeft: 15,
+        marginTop: 15,
+    },
+    buttonText: {
+        color: 'white',
+        textAlign: 'center',
+        fontSize: 15,
+        fontWeight: 'bold',
+        padding: 10,
+    },
+    text: {
+        color: 'black',
+        fontSize: 18,
+        marginTop: 15,
+        marginLeft: 15,
+    }
+
+})
+;
