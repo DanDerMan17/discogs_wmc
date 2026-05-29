@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "startts:backend": "ts-node ./src/server.ts",
+    "startBE": "ts-node ./src/server.ts",
     "devts:backend": "ts-node-dev --project tsconfig.json --respawn ./src/server.ts",
     "devtsenv:backend": "cross-env NODE_ENV=development ts-node-dev --project tsconfig.json --respawn ./src/server.ts",
     "build": "tsc"

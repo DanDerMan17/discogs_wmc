@@ -1,4 +1,4 @@
-import {Condition, Genre} from "./enums";
+import {Genre} from "./enums";
 
 export type Records = {
     title: string;
